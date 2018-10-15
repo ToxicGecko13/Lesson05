@@ -1,0 +1,36 @@
+h1, h2, h3 {
+    font-style: italic
+}
+
+h1, h2 {
+    font-size: 29px;
+}
+
+h3 {
+    font-size: 20px;
+
+}
+
+body {
+    background: url(Imgs/pexels-photo-1011302.jpeg);
+    background-repeat: no-repeat;
+    background-size: 1600px;
+    color: rgb(219, 228, 255);
+    font-family: 'Crimson Text', serif;
+    margin: 100px
+}
+
+p {
+    font-size: 18px;
+}
+
+[href] {
+    color: cyan;
+}
+
+[href]:hover {
+    color: gold;
+    transition-delay: 0.1s;
+    transition-duration: 0.7s;
+    transition-timing-function: ease;
+}
